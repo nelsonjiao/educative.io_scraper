@@ -71,7 +71,7 @@
 ### Step 2: Install the virtualenv package for python3 and create a virtual environment named "env".
 
       pip3 install virtualenv
-      virtualenv env
+      python -m virtualenv env
 
 ### Step 3: Activate the virtual environment.
 
@@ -93,8 +93,8 @@
 
 ### Step 6: Open up two terminals and run the following commands in separate terminals.
 
-      python3 chromedriver.py
-      python3 educative_scraper.py
+      python chromedriver.py
+      python educative_scraper.py
 
 ### Step 7: Refer, **[How to use the Scraper?](#how-to-use-the-scraper)** explained above, except the 2nd point.
 
